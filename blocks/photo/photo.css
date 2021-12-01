@@ -1,3 +1,9 @@
 .photo {
-
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 33% 33% 33%;
+	max-width: 1184px;
+	max-height: 671px;
+	padding-bottom: 87px;
+	/* left: 48px; */
 }

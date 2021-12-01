@@ -1,3 +1,7 @@
 .places__paragraph-two {
-	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 163%;
+	/* or 29px */
 }

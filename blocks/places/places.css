@@ -1,3 +1,5 @@
 .places {
-	
+	max-width: 984px;
+	display: grid;
+	/* left: 63px; */
 }
