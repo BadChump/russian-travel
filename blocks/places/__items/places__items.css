@@ -1,5 +1,5 @@
 .places__items {
-	
-	max-width: 984px;
 
+	max-width: 984px;
+	border: 1px solid green;
 }

@@ -2,4 +2,7 @@
 	max-width: 984px;
 	display: grid;
 	/* left: 63px; */
+	row-gap: 80px;
+	margin-top: 87px;
+	border: 1px solid green;
 }

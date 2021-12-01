@@ -2,4 +2,7 @@
 	max-width: 1184px;
 	height: 740px;
 	background-image: url('../../images/__background.jpg');
+	margin-top: 97px;
+	margin-bottom: 92px;
+	border: 1px solid red;
 }

@@ -1,9 +1,11 @@
 .header {
-	/* display: grid;
-	grid-template-rows: 50%; */
-	max-width: 1184px;
-	max-height: 52px;
+	display: flex;
+	/* grid-template-rows: 50%; */
+	width: 1184px;
+	height: 52px;
 	/* margin: auto; */
 	padding-top: 28px;
-
+	padding-bottom: 52px;
+	justify-content: space-between;
+	border: 1px solid red;
 }

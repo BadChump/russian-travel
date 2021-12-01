@@ -1,6 +1,8 @@
 .intro {
 	width: 690px;
 	height: 429px;
+	margin-bottom: 92px;
 	/* left: 148px;
 	top: 1233px; */
+	border: 1.5px solid red;
 }
