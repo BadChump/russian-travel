@@ -1,10 +1,15 @@
 .photo {
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: 33% 33% 33%;
+	/* display: grid; */
+	/* grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: auto;
 	max-width: 1184px;
 	max-height: 671px;
+	grid-gap: 16px; */
+	max-width: 100%;
+	min-height: 100vh;
+	/* height: auto; */
 	padding-bottom: 87px;
+	margin: 0 auto;
 	/* left: 48px; */
 	border: 1px solid green;
 }

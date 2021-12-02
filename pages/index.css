@@ -2,10 +2,13 @@
 @import "../vendor/fonts/fonts.css";
 
 @import "../blocks/page/page.css";
+
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
 @import "../blocks/header/__lang-links/header__lang-links.css";
+
+@import "../blocks/content/content.css";
 
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
@@ -17,11 +20,12 @@
 @import "../blocks/intro/__title/intro__title.css";
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list/intro__list.css";
-@import '../blocks/intro/__list-text/intro__list-text.css';
+@import "../blocks/intro/__list-text/intro__list-text.css";
 @import "../blocks/intro/__list-number/intro__list-number.css";
 
 @import "../blocks/photo/photo.css";
-@import "../blocks/photo/__item/photo__item.css";
+@import "../blocks/photo/__grid/photo__grid.css";
+@import "../blocks/photo/_item/photo__item.css";
 
 @import "../blocks/places/places.css";
 @import "../blocks/places/__items/places__items.css";
