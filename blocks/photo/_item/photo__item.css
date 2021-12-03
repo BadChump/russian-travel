@@ -1,6 +1,6 @@
 .photo__item {
-	
-	max-width: 284px;
-	max-height: 213px;
+	/* max-width: 284px; */
+	max-width:100%;
+	display: grid;
 	border: 1px solid red;
 }

@@ -1,11 +1,9 @@
 .header {
 	display: flex;
-	/* grid-template-rows: 50%; */
-	width: 1184px;
 	height: 52px;
-	/* margin: auto; */
+	align-items: end;
 	padding-top: 28px;
-	padding-bottom: 52px;
+	padding-bottom: 56px;
 	justify-content: space-between;
 	border: 1px solid red;
 }

@@ -1,0 +1,7 @@
+.places__links {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	grid-area: places__links;
+	border: 1px solid red;
+}

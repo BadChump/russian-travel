@@ -1,7 +1,7 @@
 .lead__image {
-	width: 984px;
-	height: 615px;
-	margin: auto;
+	max-width: 984px;
+	max-height: 615px;
+	margin: 0 auto;
 	/* left: 148px;
 	top: 491.82px; */
 	border: 1px solid green;

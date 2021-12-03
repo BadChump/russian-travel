@@ -1,4 +1,8 @@
 .content {
+	display: flex;
+	flex-direction: column;
 	max-width: 1184px;
+	justify-content: center;
+	/* align-content: center; */
 	border: 2.5px solid chartreuse;
 }

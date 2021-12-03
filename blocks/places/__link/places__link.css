@@ -2,9 +2,10 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 22px;
+	max-height: 22px;
 	/* identical to box height, or 122% */
 
 	text-decoration-line: underline;
+	grid-area: places__link;
 	border: 1px solid red;
 }

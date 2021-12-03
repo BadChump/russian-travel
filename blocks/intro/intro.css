@@ -1,7 +1,11 @@
 .intro {
-	width: 690px;
-	height: 429px;
-	margin-bottom: 92px;
+	display: flex;
+	flex-direction: column;
+	margin: 92px 100px 92px;
+	max-width: 690px;
+	min-height: 429px;
+	
+	padding: 0;
 	/* left: 148px;
 	top: 1233px; */
 	border: 1.5px solid red;

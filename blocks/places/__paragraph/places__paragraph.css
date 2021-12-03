@@ -1,0 +1,8 @@
+.places__paragraph {
+
+	margin: 0;
+	padding: 0;
+	
+	/* or 29px */
+	border: 1px solid green;
+}

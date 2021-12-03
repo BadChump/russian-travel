@@ -1,11 +1,12 @@
 .page {
+	display: grid;
 	font-family: "Inter", "Arial", sans-serif;
-	/* font-weight: normal; */
 	background-color: #2a2c2f;
 	color: #ffffff;
 	max-width: 1280px;
-	display: grid;
 	justify-content: center;
 	margin: auto;
 	border: 1px solid red;
+
 }
+

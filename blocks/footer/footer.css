@@ -1,8 +1,8 @@
 .footer {
 	display: grid;
-	position: relative;
-	width: 1184px;
-	height: 18px;
+	color: #fff;
+	max-width: 1184px;
+	max-height: 18px;
 	padding-bottom: 24px;
 	border: 1px solid red;
 }

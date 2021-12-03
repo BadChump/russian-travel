@@ -1,8 +1,9 @@
 .places {
 	max-width: 984px;
 	display: grid;
+	font-style: normal;
 	/* left: 63px; */
 	row-gap: 80px;
-	margin-top: 87px;
+	margin: 92px 100px 0;
 	border: 1px solid green;
 }

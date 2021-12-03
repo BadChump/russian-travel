@@ -1,5 +1,15 @@
 .places__items {
+	display: grid;
+	max-width: 100%;
+	/* box-sizing: border-box; */
+	grid-template-columns: 2, 1fr;
+	/* grid-template-rows: 5, 1fr; */
 
-	max-width: 984px;
 	border: 1px solid green;
+	grid-template-areas:
+	"places__title places__links"
+	"places__image places__text"
+
+	/* "places__image paragraph-one" */
+	/* "places__image paragraph-two"; */
 }
