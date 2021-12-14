@@ -11,4 +11,4 @@
 2. CSS
 3. BEM
 
-[https://github.com/BadChump/russian-travel](проект на Github)
+[проект на Github](https://github.com/BadChump/russian-travel)
