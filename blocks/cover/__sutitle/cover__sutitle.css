@@ -2,12 +2,41 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 22px;
-	margin: 0 auto 0;
-	/* or 122% */
+	line-height: 122%;
+	margin: 0;
+	/* padding: 0; */
 	max-width: 360px;
-	z-index: 9;
+	/* margin: 32px 412px 245px; */
+	/* height: 100%; */
+	/* or 122% */
+	/* max-width: 360px; */
+	/* z-index: 9; */
 	/* opacity: 0; */
 	text-align: center;
-	border: 1px solid red;
+	/* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1024px) {
+	.cover__subtitle {
+		/* margin: 0 auto 195px; */
+		/* padding: 0 332px 195px; */
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cover__sutitle {
+
+		font-size: 14px;
+		line-height: 114%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover__sutitle {
+		/* margin: 0 16px 33px; */
+		padding: 0 16px;
+		font-size: 14px;
+		line-height: 114%;		/* or 114% */
+
+	}
 }

@@ -2,9 +2,30 @@
 	font-style: normal;
 	font-weight: 900;
 	font-size: 54px;
-	line-height: 58px;
+	line-height: 107%;
 	padding: 0;
 	margin: 0 0 40px;
+	/* max-width: 690px; */
 	/* identical to box height, or 107% */
-	border: 1.5px solid green;
+	/* border: 1.5px solid green; */
+}
+
+@media screen and (max-width: 760px) {
+	.intro__title {
+		font-size: 32px;
+		line-height: 109%;
+		max-width: 680px;
+		padding: 0 16px;
+		/* or 109% */
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.intro__title {
+		/* padding: 0 16px; */
+		font-size: 32px;
+		line-height: 109%;
+		min-width: 288px;
+		/* or 109% */
+	}
 }

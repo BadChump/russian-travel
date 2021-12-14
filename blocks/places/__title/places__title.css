@@ -5,10 +5,37 @@
 	font-weight: 900;
 	font-size: 72px;
 	line-height: 76px;
-	max-height: 100vh;
-	margin: 0 40px 0 0;
+
+	margin: 0;
 	padding: 0;
 	grid-area: places__title;
 	/* or 106% */
-	border: 1px solid green;
+	/* border: 1px solid green; */
+}
+
+@media screen and (max-width: 1024px) {
+	.places__title {
+		max-width: 440px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.places__title {
+		max-width: 340px;
+		font-size: 42px;
+		line-height: 110%;
+		padding: 0 16px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.places__title {
+		min-width: 288px;
+		font-size: 32px;
+		line-height: 109%;
+		/* margin: 0; */
+		min-width: max-content;
+		padding: 0 16px;
+		/* identical to box height, or 109% */
+	}
 }
