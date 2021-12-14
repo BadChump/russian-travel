@@ -3,6 +3,7 @@
 	flex-wrap: wrap;
 	padding: 92px 48px 24px;
 	justify-content: space-between;
+	
 }
 
 @media screen and (max-width: 768px) {
