@@ -1,20 +1,8 @@
 .places__link {
-	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	max-height: 122%;
-	/* align-self: end; */
-	/* identical to box height, or 122% */
-
 	text-decoration-line: underline;
 	grid-area: places__link;
-	/* border: 1px solid red; */
 }
 
-@media screen and (max-width: 320px) {
-	.places__link {
-		/* font-size: 18px;
-		line-height: 122%; */
-		/* identical to box height, or 122% */
-	}
-}

@@ -2,28 +2,16 @@
 	display: grid;
 	gap: 12px;
 	align-self: end;
-	/* flex-direction: column; */
-	/* justify-content: end; */
 	grid-area: places__links;
 	margin: 0;
 	padding: 0;
-	/* border: 1px solid red; */
 	grid-template-areas:
-	"places__url"
-	"places__link";
+		"places__url"
+		"places__link";
 }
 
 @media screen and (max-width: 490px) {
 	.places__links {
-
-		padding: 0 16px;
-		align-self: start;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.places__links {
-
 		padding: 0 16px;
 		align-self: start;
 	}

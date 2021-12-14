@@ -5,17 +5,13 @@
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 150%;
-
-	/* or 150% */
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	/* border: 1.5px solid red; */
 }
 
 @media screen and (max-width: 320px) {
 	.intro__list {
 		padding: 0 16px;
-
 	}
 }

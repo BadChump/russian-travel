@@ -1,13 +1,9 @@
 .intro__text {
-	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 163%;
 	margin: 0 0 33px;
 	padding: 0;
-	/* max-width: 690px; */
-	/* or 26px */
-	/* border: 1.5px solid red; */
 }
 
 @media screen and (max-width: 320px) {

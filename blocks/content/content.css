@@ -1,17 +1,8 @@
 .content {
 	display: flex;
 	flex-direction: column;
-	/* width: 100%; */
-	max-width: 1184px;
-	/* width: 100%; */
 	gap: 92px;
-	/* justify-content: center; */
-	/* align-content: center; */
-	/* align-items: center; */
 	margin: 0 auto;
-	/* padding: 0 48px; */
-
-	/* border: 2.5px solid lime; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,8 +21,5 @@
 @media screen and (max-width: 320px) {
 	.content {
 		gap: 64px;
-		min-width: 288px;
-		/* padding: 0; */
-		/* margin: 0; */
 	}
 }

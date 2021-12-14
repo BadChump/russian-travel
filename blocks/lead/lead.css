@@ -1,13 +1,9 @@
 .lead {
 	display: flex;
 	flex-direction: column;
-
-	/* max-width: 1184px; */
+	font-style: normal;
 	margin: 56px auto 0;
-	/* align-content: center; */
 	justify-content: center;
-	/* padding: 0; */
-	/* border: 1px solid green; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,7 +21,6 @@
 @media screen and (max-width: 320px) {
 	.lead {
 		max-width: 320px;
-
 		padding: 0;
 	}
 }

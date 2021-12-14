@@ -3,11 +3,6 @@
 	flex-wrap: wrap;
 	padding: 92px 48px 24px;
 	justify-content: space-between;
-	/* align-content: end; */
-	/* margin: 0; */
-	/* grid-template-columns: 2, 1fr; */
-	/* grid-template-areas:
-	"footer__links footer__copyright"; */
 }
 
 @media screen and (max-width: 768px) {

@@ -1,20 +1,10 @@
 .lead__caption {
-	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
 	line-height: 140%;
-	/* max-width: 158px; */
 	margin: 8px 0 0;
-	/* padding: 0 0 0 100px; */
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	/* border: 1px solid green; */
-}
-
-@media screen and (max-width: 1024px) {
-	.lead__caption {
-		/* padding: 0 0 0 48px; */
-	}
 }
 
 @media screen and (max-width: 768px) {
@@ -25,10 +15,8 @@
 
 @media screen and (max-width: 320px) {
 	.lead__caption {
-		/* padding: 0 0 0 16px; */
 		margin: 8px 0 0 16px;
 		font-size: 10px;
 		line-height: 140%;
-		/* identical to box height, or 140% */
 	}
 }
