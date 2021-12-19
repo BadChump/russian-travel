@@ -10,7 +10,7 @@
 		"places__link";
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 680px) {
 	.places__links {
 		padding: 0 16px;
 		align-self: start;

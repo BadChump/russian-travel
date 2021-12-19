@@ -1,4 +1,19 @@
 .footer {
-	display: grid;
-	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 92px 48px 24px;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+		padding: 88px 24px 24px;
+		gap: 48px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.footer {
+		padding: 64px 16px 24px;
+	}
 }

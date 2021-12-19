@@ -1,6 +1,10 @@
 .lead__image {
-	padding: 0;
+	background-image: url("../../../images/__image(111).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	max-width: 984px;
+	width: 100%;
 }
 
 @media screen and (max-width: 1060px) {
@@ -28,6 +32,6 @@
 }
 @media screen and (max-width: 320px) {
 	.lead__image {
-		min-width: 288px;
+		max-width: 320px;
 	}
 }

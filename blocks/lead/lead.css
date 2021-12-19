@@ -2,25 +2,32 @@
 	display: flex;
 	flex-direction: column;
 	font-style: normal;
-	margin: 56px auto 0;
+	margin: 0 auto;
+	max-width: 1184px;
 	justify-content: center;
+	align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
 	.lead {
-		margin: 48px 48px 0;
+		padding: 0 48px;
+	}
+}
+
+@media screen and (max-width: 795px) {
+	.lead {
+		padding: 0 ;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	.lead {
-		margin: 48px 0;
 		padding: 0;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.lead {
-		min-width: 320px;
+		max-width: 320px;
 	}
 }

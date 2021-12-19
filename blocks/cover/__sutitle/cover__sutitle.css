@@ -4,11 +4,20 @@
 	line-height: 122%;
 	max-width: 360px;
 	text-align: center;
+	margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
 	.cover__sutitle {
 		font-size: 14px;
+		line-height: 118%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover__sutitle {
 		line-height: 114%;
+		max-width: 288px;
+		padding: 0 16px;
 	}
 }
